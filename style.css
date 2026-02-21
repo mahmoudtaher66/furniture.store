@@ -1,0 +1,46 @@
+/* Custom Hero Overrides */
+.hero-section {
+    background: url('https://picsum.photos/seed/hero/1600/900') no-repeat center center/cover;
+    height: 90vh;
+    min-height: 600px;
+}
+
+.hero-card {
+    background-color: #fff9f3;
+    border-radius: 8px;
+}
+
+/* Button Customization (Matching the "Furniture" aesthetic) */
+.btn-primary {
+    background-color: #b88e2f !important;
+    border-color: #b88e2f !important;
+}
+
+.btn-primary:hover {
+    background-color: #967325 !important;
+}
+
+/* Typography & Layout adjustments */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #333 !important;
+    margin: 0 10px;
+}
+
+.nav-link.active {
+    color: #b88e2f !important;
+}
+
+/* Category card hover effect */
+.card-img-top {
+    transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.03);
+}
